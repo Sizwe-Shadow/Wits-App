@@ -39,5 +39,6 @@ jobs:
          # key: v1-dependencies-{{ checksum "build.gradle" }}
 
       # run tests!
+      #it is what it is because it does what it do.
       #- run: gradle test
 after_success: -bash <(curl -s https://codecov.io/bash)
